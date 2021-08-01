@@ -1,0 +1,33 @@
+{
+  "name": "soutien-prog-front",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "reformat": "./node_modules/.bin/prettier --write ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.9.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.7",
+    "nuxt-material-design-icons": "^1.0.4",
+    "vue": "^2.6.14",
+    "vuelidate": "^0.7.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "postcss": "^8.2.8",
+    "prettier": "^2.3.2"
+  }
+}
